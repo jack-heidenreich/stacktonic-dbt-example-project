@@ -5,20 +5,20 @@ stacktonic_example_project:
   dev:
    type: bigquery
    method: oauth
-   project: stacktonic-examples
-   dataset: dbt_dev
+   project: sig-chi-picks
+   dataset: test_ga4
    threads: 1
    timeout_seconds: 300
-   location: EU
+   location: US
    priority: interactive
    retries: 1
   prod:
    type: bigquery
    method: oauth
-   project: stacktonic-examples
-   dataset: dbt
+   project: sig-chi-picks
+   dataset: test_ga4
    threads: 5
    timeout_seconds: 300
-   location: EU
+   location: US
    priority: interactive
    retries: 1
